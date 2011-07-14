@@ -11,7 +11,7 @@ require_once(WCF_DIR.'lib/system/event/EventListener.class.php');
  * @author		Okan Esen
  * @copyright	2011 Okan Esen
  * @package		com.okanesen.wbb.independentActivitypoint
- * @license		Creative Commons <by-nd> <http://creativecommons.org/licenses/by-nd/3.0/deed.de>
+ * @license		GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  */
 class ThreadAddFormActivityListener implements EventListener {
 	public $threadID = 0;
