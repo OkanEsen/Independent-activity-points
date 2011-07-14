@@ -1,0 +1,9 @@
+# Windows
+Thumbs.db # thumbnails
+
+# OS-X
+.DS_Store
+._* #thumbnails
+
+# SVN
+.svn/ # svn folders
