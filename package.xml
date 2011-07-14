@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.okanesen.wbb.activity">
+	<packageinformation>
+		<packagename>Independent activity points</packagename>
+		<packagename language="de"><![CDATA[Unabhängige Aktivitätspunkte]]></packagename>
+		<packagedescription><![CDATA[Counts the activity points even high, if the option was deactivated for "user contributions" in certain forums]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Zählt die Aktivitätspunkte auch dann hoch, sofern die Option für "Benutzerbeiträge" in gewissen Foren deaktiviert wurde]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2011-04-02</date>
+		<plugin>com.woltlab.wbb</plugin>
+		<standalone>0</standalone>
+		<isunique>0</isunique>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Okan Esen</author>
+		<authorurl>http://www.okan-esen.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<eventlistener>eventlistener.xml</eventlistener>
+		<files>files.tar</files>
+	</instructions>
+</package>

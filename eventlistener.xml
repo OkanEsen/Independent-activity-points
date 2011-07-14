@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/eventlisteners.dtd">
+<data>
+	<import>
+		<eventlistener>
+			<eventclassname>PostAddForm</eventclassname>
+			<eventname>saved</eventname>
+			<listenerclassfile>lib/system/event/listener/PostAddFormActivityListener.class.php</listenerclassfile>
+		</eventlistener>
+		
+		<eventlistener>
+			<eventclassname>PostQuickAddForm</eventclassname>
+			<eventname>saved</eventname>
+			<listenerclassfile>lib/system/event/listener/PostAddFormActivityListener.class.php</listenerclassfile>
+		</eventlistener>
+		
+		<eventlistener>
+			<eventclassname>ThreadAddForm</eventclassname>
+			<eventname>saved</eventname>
+			<listenerclassfile>lib/system/event/listener/ThreadAddFormActivityListener.class.php</listenerclassfile>
+		</eventlistener>
+	</import>
+</data>
